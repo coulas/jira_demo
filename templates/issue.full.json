@@ -1,0 +1,146 @@
+{
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "fields": {
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "aggregatetimeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "aggregatetimespent": null,
+        "assignee": null,
+        "attachment": [],
+        "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "startAt": 0,
+            "total": 0
+        },
+        "components": [],
+        "created": "2017-01-04T11:19:35.408-0500",
+        "creator": {
+            "active": true,
+            "avatarUrls": {
+                "16x16": "http://www.gravatar.com/avatar/1d44b4d4289ca08c53a0cfe2bc3cf5a3?d=mm&s=16",
+                "24x24": "http://www.gravatar.com/avatar/1d44b4d4289ca08c53a0cfe2bc3cf5a3?d=mm&s=24",
+                "32x32": "http://www.gravatar.com/avatar/1d44b4d4289ca08c53a0cfe2bc3cf5a3?d=mm&s=32",
+                "48x48": "http://www.gravatar.com/avatar/1d44b4d4289ca08c53a0cfe2bc3cf5a3?d=mm&s=48"
+            },
+            "displayName": "nicolas.fedou@gmail.com",
+            "emailAddress": "nicolas.fedou@gmail.com",
+            "key": "coulas",
+            "name": "coulas",
+            "self": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/rest/api/2/user?username=coulas",
+            "timeZone": "Europe/Paris"
+        },
+        "customfield_10000": "0|hzzzzz:",
+        "customfield_10001": null,
+        "customfield_10005": null,
+        "customfield_10006": 2.0,
+        "description": "*About Scrum*\n\nScrum is an iterative approach to Agile software development. The methodology has been around since the 1980s but was popularised by Jeff Sutherland and Ken Schwaber. \n\nScrum breaks the development of a product down in to discrete iterations (termed Sprints) that each deliver functionality that could potentially be shipped to users.\n\nThe Scrum Alliance offers an excellent [introduction to Scrum|http://www.scrumalliance.org/resources/47] that provides an overview of key Scrum concepts, stakeholders, processes and artefacts.",
+        "duedate": null,
+        "environment": null,
+        "fixVersions": [
+            {
+                "archived": false,
+                "id": "10001",
+                "name": "Version 2.0",
+                "releaseDate": "2017-01-10",
+                "released": false,
+                "self": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/rest/api/2/version/10001"
+            }
+        ],
+        "issuelinks": [],
+        "issuetype": {
+            "description": "gh.issue.story.desc",
+            "iconUrl": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/images/icons/issuetypes/story.svg",
+            "id": "10002",
+            "name": "Story",
+            "self": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/rest/api/2/issuetype/10002",
+            "subtask": false
+        },
+        "labels": [],
+        "lastViewed": "2017-01-04T13:23:07.258-0500",
+        "priority": {
+            "iconUrl": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/images/icons/priorities/medium.svg",
+            "id": "3",
+            "name": "Medium",
+            "self": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/rest/api/2/priority/3"
+        },
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "project": {
+            "avatarUrls": {
+                "16x16": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/secure/projectavatar?size=xsmall&avatarId=10324",
+                "24x24": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/secure/projectavatar?size=small&avatarId=10324",
+                "32x32": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/secure/projectavatar?size=medium&avatarId=10324",
+                "48x48": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/secure/projectavatar?avatarId=10324"
+            },
+            "id": "10000",
+            "key": "SCRUM",
+            "name": "scrum_demo",
+            "self": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/rest/api/2/project/10000"
+        },
+        "reporter": {
+            "active": true,
+            "avatarUrls": {
+                "16x16": "http://www.gravatar.com/avatar/1d44b4d4289ca08c53a0cfe2bc3cf5a3?d=mm&s=16",
+                "24x24": "http://www.gravatar.com/avatar/1d44b4d4289ca08c53a0cfe2bc3cf5a3?d=mm&s=24",
+                "32x32": "http://www.gravatar.com/avatar/1d44b4d4289ca08c53a0cfe2bc3cf5a3?d=mm&s=32",
+                "48x48": "http://www.gravatar.com/avatar/1d44b4d4289ca08c53a0cfe2bc3cf5a3?d=mm&s=48"
+            },
+            "displayName": "nicolas.fedou@gmail.com",
+            "emailAddress": "nicolas.fedou@gmail.com",
+            "key": "coulas",
+            "name": "coulas",
+            "self": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/rest/api/2/user?username=coulas",
+            "timeZone": "Europe/Paris"
+        },
+        "resolution": null,
+        "resolutiondate": null,
+        "status": {
+            "description": "",
+            "iconUrl": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/",
+            "id": "10000",
+            "name": "To Do",
+            "self": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/rest/api/2/status/10000",
+            "statusCategory": {
+                "colorName": "blue-gray",
+                "id": 2,
+                "key": "new",
+                "name": "To Do",
+                "self": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/rest/api/2/statuscategory/2"
+            }
+        },
+        "subtasks": [],
+        "summary": "As an Agile team, I'd like to learn about Scrum >> Click the \"SCRUM-1\" link at the left of this row to see detail in the Description tab on the right",
+        "timeestimate": null,
+        "timeoriginalestimate": null,
+        "timespent": null,
+        "timetracking": {},
+        "updated": "2017-01-04T11:19:35.408-0500",
+        "versions": [],
+        "votes": {
+            "hasVoted": false,
+            "self": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/rest/api/2/issue/SCRUM-1/votes",
+            "votes": 0
+        },
+        "watches": {
+            "isWatching": false,
+            "self": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/rest/api/2/issue/SCRUM-1/watchers",
+            "watchCount": 0
+        },
+        "worklog": {
+            "maxResults": 20,
+            "startAt": 0,
+            "total": 0,
+            "worklogs": []
+        },
+        "workratio": -1
+    },
+    "id": "10000",
+    "key": "SCRUM-1",
+    "self": "http://ec2-52-90-215-185.compute-1.amazonaws.com:18080/rest/api/latest/issue/10000"
+}
