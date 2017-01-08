@@ -1,0 +1,14 @@
+#/bin/sh -x
+set -x
+
+prg=$0
+while [ -L "$prg" ]
+do
+  prg=`readlink $prg`
+done
+cd `dirname $prg`/..
+
+. ./bin/env
+
+criterium=$1
+curl -X GET -H "Authorization: Basic ${credentials}" -H "Content-Type: application/json" "${baseUrl}rest/api/latest/search?jql=${criterium}"
