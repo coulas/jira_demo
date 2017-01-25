@@ -1,0 +1,9 @@
+#/bin/sh -x
+set -x
+
+proxycmd='';
+if [ -n ${proxywithport} ]; then 
+proxycmd="-x ${proxywithport}";
+fi 
+
+curl ${proxycmd} --silent -H "Authorization: Basic ${credentials}" -H "Content-Type: application/json" $*
