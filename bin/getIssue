@@ -11,4 +11,5 @@ cd `dirname $prg`/..
 . ./bin/env
 
 issueId=$1
-. ./bin/query -X GET "${baseUrl}rest/api/latest/issue/${issueId}"
+options=${@:2}
+. ./bin/get "${baseUrl}rest/api/latest/issue/${issueId}" ${options}

@@ -11,4 +11,5 @@ cd `dirname $prg`/..
 . ./bin/env
 
 criterium=$1
-. ./bin/query -X GET "${baseUrl}rest/api/latest/search?jql=${criterium}"
+options=${@:2}
+. ./bin/get "${baseUrl}rest/api/latest/search?jql=${criterium}" ${options}

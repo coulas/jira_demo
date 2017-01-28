@@ -1,9 +1,30 @@
-#/bin/sh -x
-set -x
+#/bin/sh
+
+prg=$0
+while [ -L "$prg" ]
+do
+  prg=`readlink $prg`
+done
+cd `dirname $prg`/..
+
+. ./bin/env
 
 proxycmd='';
 if [ -n "${proxywithport}" ]; then 
 proxycmd="-x ${proxywithport}";
 fi 
 
-curl ${proxycmd} --silent -H "Authorization: Basic ${credentials}" -H "Content-Type: application/json" $*
+params='';
+optcmd='xargs echo';
+while [ "$1" != "" ]; do
+    case $1 in
+        -p | --pretty )         shift
+                                optcmd='python -m json.tool'
+                                ;;
+        * )                     params=$params" "$1
+                                ;;
+    esac
+    shift
+done
+
+curl ${proxycmd} --silent -H "Authorization: Basic ${credentials}" -H "Content-Type: application/json" ${params} | ${optcmd}
