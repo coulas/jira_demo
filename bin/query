@@ -2,7 +2,7 @@
 set -x
 
 proxycmd='';
-if [ -n ${proxywithport} ]; then 
+if [ -n "${proxywithport}" ]; then 
 proxycmd="-x ${proxywithport}";
 fi 
 

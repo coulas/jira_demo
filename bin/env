@@ -1,7 +1,9 @@
-#!/bin/sh
+#!/bin/sh -x
+set -x
 
 source ./etc/secrets
 
-export credentials=`echo -n $login:$password | base64`
+if [ -z "${credentials}" ]; then 
+    export credentials=`echo -n $login:$password | base64`
+fi
 export baseUrl="http://$host:$port/"
-

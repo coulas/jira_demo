@@ -3,3 +3,6 @@ secrets
 
 # Eclipse ide
 .project
+
+# MacOS Pollution
+.DS_Store
