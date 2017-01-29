@@ -1,0 +1,35 @@
+{
+    "fields": {
+        "project": {
+            "id": "10000"
+        },
+        "summary": "Test de création depuis l'API",
+        "issuetype": {
+            "id": "10003"
+        },
+        "assignee": {
+            "name": "FabienHiegel"
+        },
+        "reporter": {
+            "name": "FabienHiegel"
+        },
+        "priority": {
+            "name": "Medium"
+        },
+        "labels": [
+            "bugfix",
+            "blitz_test"
+        ],
+        "description": "Une description du JIRA à remplir depuis l'API",
+        "fixVersions": [
+            {
+                "id": "10001"
+            }
+        ],
+        "components": [
+            {
+                "id": "10000"
+            }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+#/bin/sh
+
+# Init
+. ./bin/env
+
+# Execute
+. ./bin/get "${baseUrl}rest/api/2/issue/createmeta" $*

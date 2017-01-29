@@ -1,5 +1,4 @@
-#!/bin/sh -x
-set -x
+#!/bin/sh
 
 source ./etc/secrets
 
