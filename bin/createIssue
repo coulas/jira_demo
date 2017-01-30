@@ -1,9 +1,10 @@
 #/bin/sh
+set -x
 
 # Init
 . ./bin/env
-
-#issue=`cat ./etc/issue.json`
+. ./bin/factory.sh
 
 # Execute
-. ./bin/post -d @./etc/issue.json "${baseUrl}rest/api/2/issue" $*
+issue=$( create_issue )
+. ./bin/post -d "$issue" "${baseUrl}rest/api/2/issue" $*
