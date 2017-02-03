@@ -1,8 +1,8 @@
-#/bin/sh
-set -x
+#/bin/sh -x
+# set -x
 
 # Init
-. ./bin/env
+source ./bin/env
 . ./bin/factory.sh
 
 # Execute

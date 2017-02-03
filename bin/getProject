@@ -1,0 +1,8 @@
+#/bin/sh
+
+# Init
+. ./bin/env
+
+# Execute
+projectIdOrkey="SCRUM"
+. ./bin/get "${baseUrl}rest/api/2/project/${projectIdOrkey}" $*

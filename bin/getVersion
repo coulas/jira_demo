@@ -1,0 +1,8 @@
+#/bin/sh
+
+# Init
+. ./bin/env
+
+# Execute
+versionKey="10000"
+. ./bin/get "${baseUrl}rest/api/2/version/${versionKey}" $*
